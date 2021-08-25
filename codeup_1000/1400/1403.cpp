@@ -2,17 +2,23 @@
 using namespace std;
 
 int main() {
-	int n,cnt=0;
-	cin >> n;
-	if (n > 1000 || n<1)
-		cin >> n;
-	int* arr = new int[n];
-	for (int i = 0; i < n; i++) {
+	int k, cnt = 0;
+	cin >> k;
+	if (k > 100)
+		cin >> k;
+	int* arr = new int[k];
+	for (int i = 0; i < k; i++) {
 
-		cin>>arr[i];
+		cin >> arr[i];
 	}
 
-	for (int )
-	delete[] arr;
+
+	for (int i = 0; i < k; i++) {
+
+		cout << arr[i] << endl;
+		cnt += 1;
+		if (cnt == k)
+			i -= k;
+	}
 
 }
