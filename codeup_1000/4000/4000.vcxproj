@@ -19,10 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="4026.cpp" />
-    <ClCompile Include="4536.cpp" />
-    <ClCompile Include="4561.cpp" />
-    <ClCompile Include="4816.cpp" />
+    <ClCompile Include="4011.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
